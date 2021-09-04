@@ -21,13 +21,16 @@ Also since Istio tightly controls traffic routing to provide above mentioned ben
 In the [second part](#part-b-modify-sample-application-to-use-an-external-datasource-deploy-the-application-and-istio-envoys-with-egress-traffic-enabled) of the journey we focus on how Istio can be configured to allow applications to connect to external services. For that we modify the sample BookInfo application to use an external database and then use it as a base to show Istio configuration for enabling egress traffic.
 
 
+![istio-architecture](images/istio-architecture.png)
+
+
 
 Create a working directory to clone this repo and to download Istio into:
 
 ```bash
 $ mkdir ibm
 $ cd ibm
-$ git clone https://github.com/IBM/traffic-management-for-your-microservices-using-istio.git demo
+$ git clone https://github.com/sahajoydeep2002/Microservices-Traffic-Management.git demo
 ```
 
 You will also need Istio service mesh installed on top of your Kubernetes cluster.
