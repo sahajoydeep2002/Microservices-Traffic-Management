@@ -47,12 +47,12 @@ $ kubectl apply -f istio/install/kubernetes/istio-demo.yaml
 
 ## Included Components
 
-- [Istio]
-- [IBM Cloud Kubernetes Service]
-- [Grafana]
-- [Jaeger]
-- [Prometheus]
-- [Continuous Delivery Service]
+- Istio
+- IBM Cloud Kubernetes Service
+- Grafana
+- Jaeger
+- Prometheus
+- Continuous Delivery Service
 
 
 # Steps
