@@ -45,6 +45,16 @@ $ kubectl apply -f istio/install/kubernetes/istio-demo.yaml
 ```
 
 
+## Included Components
+
+- [Istio]
+- [IBM Cloud Kubernetes Service]
+- [Grafana]
+- [Jaeger]
+- [Prometheus]
+- [Continuous Delivery Service]
+
+
 # Steps
 
 ### Part A: Deploy sample Bookinfo application and inject Istio sidecars to enable traffic flow management, access policy and monitoring data aggregation for application
